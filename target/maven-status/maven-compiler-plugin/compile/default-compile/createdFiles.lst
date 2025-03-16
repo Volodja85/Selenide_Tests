@@ -1,0 +1,6 @@
+com\softtest\unix\PropertyUtil.class
+com\softtest\unix\UnixPage.class
+com\softtest\unix\HomePage.class
+com\softtest\unix\BasePage.class
+com\softtest\unix\CategoriesMenu.class
+com\softtest\unix\CategoriesDevOps.class

@@ -1,0 +1,1 @@
+{"uuid":"3e869adf-e1cd-4bac-84ee-a313e0629e0f","name":"Default Suite","children":["b71306a0-9e6d-4290-a8bd-4db36d506d38"],"befores":[{"name":"driverConfigurationAndTimeout","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1742127213002,"stop":1742127213049}],"afters":[],"start":1742127212955,"stop":1742127268106}

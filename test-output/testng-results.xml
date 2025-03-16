@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="0" failed="0" skipped="1">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-03-15T03:32:49 EET" name="Default suite" finished-at="2025-03-15T03:32:49 EET" duration-ms="165">
+    <groups>
+    </groups>
+    <test started-at="2025-03-15T03:32:49 EET" name="Default test" finished-at="2025-03-15T03:32:49 EET" duration-ms="165">
+      <class name="com.softtest.unixtest.inspectionUnixPage">
+        <test-method is-config="true" signature="driverConfigurationAndTimeout()[pri:0, instance:com.softtest.unixtest.inspectionUnixPage@6b0d80ed]" started-at="2025-03-15T03:32:48 EET" name="driverConfigurationAndTimeout" finished-at="2025-03-15T03:32:48 EET" duration-ms="42" status="FAIL">
+          <exception class="java.lang.ExceptionInInitializerError">
+            <full-stacktrace>
+              <![CDATA[java.lang.ExceptionInInitializerError
+at utils.TestRunner.driverConfigurationAndTimeout(TestRunner.java:19)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:358)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+Caused by: java.util.MissingResourceException: Can't find bundle for base name config, locale uk_UA
+at java.base/java.util.ResourceBundle.throwMissingResourceException(ResourceBundle.java:2059)
+at java.base/java.util.ResourceBundle.getBundleImpl(ResourceBundle.java:1697)
+at java.base/java.util.ResourceBundle.getBundleImpl(ResourceBundle.java:1600)
+at java.base/java.util.ResourceBundle.getBundleImpl(ResourceBundle.java:1555)
+at java.base/java.util.ResourceBundle.getBundle(ResourceBundle.java:861)
+at com.softtest.unix.PropertyUtil.<clinit>(PropertyUtil.java:9)
+... 18 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.ExceptionInInitializerError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverConfigurationAndTimeout -->
+        <test-method is-config="true" signature="navigateToUrl()[pri:0, instance:com.softtest.unixtest.inspectionUnixPage@6b0d80ed]" started-at="2025-03-15T03:32:49 EET" name="navigateToUrl" finished-at="2025-03-15T03:32:49 EET" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToUrl -->
+        <test-method signature="verifyHeader()[pri:0, instance:com.softtest.unixtest.inspectionUnixPage@6b0d80ed]" started-at="2025-03-15T03:32:49 EET" name="verifyHeader" finished-at="2025-03-15T03:32:49 EET" duration-ms="0" status="SKIP">
+          <exception class="java.lang.ExceptionInInitializerError">
+            <full-stacktrace>
+              <![CDATA[java.lang.ExceptionInInitializerError
+at utils.TestRunner.driverConfigurationAndTimeout(TestRunner.java:19)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:358)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+Caused by: java.util.MissingResourceException: Can't find bundle for base name config, locale uk_UA
+at java.base/java.util.ResourceBundle.throwMissingResourceException(ResourceBundle.java:2059)
+at java.base/java.util.ResourceBundle.getBundleImpl(ResourceBundle.java:1697)
+at java.base/java.util.ResourceBundle.getBundleImpl(ResourceBundle.java:1600)
+at java.base/java.util.ResourceBundle.getBundleImpl(ResourceBundle.java:1555)
+at java.base/java.util.ResourceBundle.getBundle(ResourceBundle.java:861)
+at com.softtest.unix.PropertyUtil.<clinit>(PropertyUtil.java:9)
+... 18 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.ExceptionInInitializerError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHeader -->
+      </class> <!-- com.softtest.unixtest.inspectionUnixPage -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
